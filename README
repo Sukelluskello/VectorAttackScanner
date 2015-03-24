@@ -1,11 +1,11 @@
 VectorAttackScanner
 ===================
 
-This is a tool to analyze android and windows, to detect points to attack, as Intents, Services, Receivers, Process and librarys.
+This is a tool to analyze android and windows, to detect points to attack, as intents, services, receivers, processes and librarys.
 
 I do thanks a good friend: Engineer Ivan Javier Sanchez (https://ar.linkedin.com/in/nullcode), for teach me about this and somethings more (y) 
 
-This uses a static analysis methods to do this.
+This tool uses a static analysis methods to do this, the vector attack founded by this tool, can be attacked by fuzzing methods to discover vulnerabilities..
 
 
 This code was developed by me: Jheto Xekri
