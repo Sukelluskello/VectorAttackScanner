@@ -1,0 +1,902 @@
+Library details:
+ 
+RELRO: RELRO_FULL
+PAX: PAX_DISABLED
+ASLR: true
+PIE: true
+NX: true
+SSP: true
+StackCanary: true
+32bit: true
+Encoding: Little Endian (LSB)
+Version: 1
+AbiVersion: 0
+Abi: UNIX System V ABI
+Type: Shared Object File
+Machine: ARM 32-bit architecture (AARCH32)
+ 
+Library fingerprint:
+ 
+Name: libgoogle-ocrclient.so
+Size: 366056
+Date: Wed Dec 31 18:59:59 COT 1969
+MD5: d41d8cd98f00b204e9800998ecf8427e
+SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+ 
+Library headers:
+ 
+{FileSize=0xE0, MemorySize=0xE0, VirtualAddress=0x34, Type=PT_PHDR, Flags=R, Offset=0x34, PhysicalAddress=0x34, Alignment=0x4}
+ 
+{FileSize=0x57084, MemorySize=0x57084, VirtualAddress=0x0, Type=PT_LOAD, Flags=RE, Offset=0x0, PhysicalAddress=0x0, Alignment=0x1000}
+ 
+{FileSize=0x1404, MemorySize=0x288BB1, VirtualAddress=0x58CF8, Type=PT_LOAD, Flags=RW, Offset=0x57CF8, PhysicalAddress=0x58CF8, Alignment=0x1000}
+ 
+{FileSize=0x108, MemorySize=0x108, VirtualAddress=0x59CF4, Type=PT_DYNAMIC, Flags=RW, Offset=0x58CF4, PhysicalAddress=0x59CF4, Alignment=0x4}
+ 
+{FileSize=0x0, MemorySize=0x0, VirtualAddress=0x0, Type=PT_GNU_STACK, Flags=RW, Offset=0x0, PhysicalAddress=0x0, Alignment=0x0}
+ 
+{FileSize=0xB20, MemorySize=0xB20, VirtualAddress=0x1FE18, Type=PT_ARM_UNWIND, Flags=R, Offset=0x1FE18, PhysicalAddress=0x1FE18, Alignment=0x4}
+ 
+{FileSize=0x1308, MemorySize=0x1308, VirtualAddress=0x58CF8, Type=PT_GNU_RELRO, Flags=RW, Offset=0x57CF8, PhysicalAddress=0x58CF8, Alignment=0x8}
+ 
+Library sections:
+ 
+{Name=, AddressAlignment=0x0, Size=0, Type=SHT_NULL, Flags=, Offset=0x0, Address=0x0}
+ 
+{Name=.dynsym, AddressAlignment=0x4, Size=6512, Type=SHT_DYNSYM, Flags=A, Offset=0x114, Address=0x114}
+ 
+{Name=.dynstr, AddressAlignment=0x1, Size=8397, Type=SHT_STRTAB, Flags=A, Offset=0x1A84, Address=0x1A84}
+ 
+{Name=.hash, AddressAlignment=0x4, Size=2688, Type=SHT_HASH, Flags=A, Offset=0x3B54, Address=0x3B54}
+ 
+{Name=.rel.dyn, AddressAlignment=0x4, Size=6128, Type=SHT_REL, Flags=A, Offset=0x45D4, Address=0x45D4}
+ 
+{Name=.rel.plt, AddressAlignment=0x4, Size=464, Type=SHT_REL, Flags=A, Offset=0x5DC4, Address=0x5DC4}
+ 
+{Name=.plt, AddressAlignment=0x4, Size=716, Type=SHT_PROGBITS, Flags=AX, Offset=0x5F94, Address=0x5F94}
+ 
+{Name=.text, AddressAlignment=0x8, Size=105400, Type=SHT_PROGBITS, Flags=AX, Offset=0x6260, Address=0x6260}
+ 
+{Name=.ARM.exidx, AddressAlignment=0x4, Size=2848, Type=SHT_ARM_EXIDX, Flags=AL, Offset=0x1FE18, Address=0x1FE18}
+ 
+{Name=.ARM.extab, AddressAlignment=0x4, Size=3296, Type=SHT_PROGBITS, Flags=A, Offset=0x20938, Address=0x20938}
+ 
+{Name=.rodata, AddressAlignment=0x10, Size=219748, Type=SHT_PROGBITS, Flags=A, Offset=0x21620, Address=0x21620}
+ 
+{Name=.data.rel.ro.local, AddressAlignment=0x4, Size=1736, Type=SHT_PROGBITS, Flags=WA, Offset=0x57CF8, Address=0x58CF8}
+ 
+{Name=.fini_array, AddressAlignment=0x4, Size=8, Type=SHT_FINI_ARRAY, Flags=WA, Offset=0x583C0, Address=0x593C0}
+ 
+{Name=.data.rel.ro, AddressAlignment=0x8, Size=2324, Type=SHT_PROGBITS, Flags=WA, Offset=0x583C8, Address=0x593C8}
+ 
+{Name=.init_array, AddressAlignment=0x4, Size=24, Type=SHT_INIT_ARRAY, Flags=WA, Offset=0x58CDC, Address=0x59CDC}
+ 
+{Name=.dynamic, AddressAlignment=0x4, Size=264, Type=SHT_DYNAMIC, Flags=WA, Offset=0x58CF4, Address=0x59CF4}
+ 
+{Name=.got, AddressAlignment=0x4, Size=516, Type=SHT_PROGBITS, Flags=WA, Offset=0x58DFC, Address=0x59DFC}
+ 
+{Name=.data, AddressAlignment=0x4, Size=252, Type=SHT_PROGBITS, Flags=WA, Offset=0x59000, Address=0x5A000}
+ 
+{Name=.bss, AddressAlignment=0x8, Size=2652073, Type=SHT_NOBITS, Flags=WA, Offset=0x590FC, Address=0x5A100}
+ 
+{Name=.comment, AddressAlignment=0x1, Size=38, Type=SHT_PROGBITS, Flags=MS, Offset=0x590FC, Address=0x0}
+ 
+{Name=.note.gnu.gold-version, AddressAlignment=0x4, Size=28, Type=SHT_NOTE, Flags=, Offset=0x59124, Address=0x0}
+ 
+{Name=.ARM.attributes, AddressAlignment=0x1, Size=54, Type=SHT_ARM_ATTRIBUTES, Flags=, Offset=0x59140, Address=0x0}
+ 
+{Name=.shstrtab, AddressAlignment=0x1, Size=216, Type=SHT_STRTAB, Flags=, Offset=0x59176, Address=0x0}
+ 
+Library symbols:
+ 
+{Name=__cxa_finalize, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_atexit, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=sinf, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=cosf, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=memmove, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=lrintf, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=abort, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=memcpy, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=floor, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=sin, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=cos, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=atan, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=exit, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=atan2, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=strtod, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=atoi, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=strlen, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=strtok_r, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=strcmp, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=exp, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=memset, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=memalign, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=free, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=lrand48, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=printf, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=time, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=localtime_r, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=snprintf, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=clock, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__stack_chk_fail, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__stack_chk_guard, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=open, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=read, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__errno, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=close, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=memchr, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=memcmp, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=memmem, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=malloc, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=strtol, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=pthread_once, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=strerror, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=pthread_mutex_lock, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=pthread_mutex_unlock, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=pthread_key_delete, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=pthread_getspecific, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=pthread_setspecific, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=pthread_key_create, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=syscall, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=write, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=fwrite, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=fputs, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=fputc, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__sF, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=realloc, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=sprintf, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=strncmp, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=strcpy, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=raise, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_Unwind_Find_exidx, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=JNI_OnLoad, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=Java_com_google_android_libraries_commerce_ocr_cv_CardRectifier_rectify, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt6vectorIPN14card_rectifier10EdgeFinderESaIS2_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt20__uninitialized_copyILb0EE13__uninit_copyIN9__gnu_cxx17__normal_iteratorIPKN14card_rectifier4LineESt6vectorIS5_SaIS5_EEEEPS5_EET0_T_SE_SD_, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt6vectorIN14card_rectifier4LineESaIS1_EE5eraseEN9__gnu_cxx17__normal_iteratorIPS1_S3_EES7_, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt6vectorI7Point2DIfESaIS1_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt6vectorIfSaIfEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPfS1_EERKf, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt20__uninitialized_copyILb0EE13__uninit_copyIPN14card_rectifier4LineES4_EET0_T_S6_S5_, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt6vectorIPfSaIS0_EE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPS0_S2_EERKS0_, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZSt16__insertion_sortIPfEvT_S1_, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZSt19__move_median_firstIPfEvT_S1_S1_, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZSt27__unguarded_partition_pivotIPfET_S1_S1_, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZSt13__adjust_heapIPfifEvT_T0_S2_T1_, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZSt13__heap_selectIPfEvT_S1_S1_, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZSt16__introsort_loopIPfiEvT_S1_T0_, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZSt4sortIPfEvT_S1_, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=Java_com_google_android_libraries_commerce_ocr_cv_localrecognition_NativeCreditCardRecognizer_getCreditCardNumbers, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=Java_com_google_android_libraries_commerce_ocr_cv_localrecognition_NativeCreditCardRecognizer_getExpirationDate, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=Java_com_google_android_libraries_commerce_ocr_cv_BlurDetectorImpl_isBlurryNative, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=android_getCpuFamily, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=android_getCpuFeatures, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=android_getCpuCount, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=android_setCpu, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=android_getCpuIdArm, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=android_setCpuArm, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNKSt9bad_alloc4whatEv, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt9bad_allocD1Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt9bad_allocD2Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt9bad_allocD0Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNKSt8bad_cast4whatEv, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt8bad_castD1Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt8bad_castD2Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt8bad_castD0Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNKSt10bad_typeid4whatEv, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt10bad_typeidD1Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt10bad_typeidD2Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt10bad_typeidD0Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv117__class_type_infoD2Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv117__class_type_infoD1Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv117__class_type_infoD0Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZdlPv, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZdlPvj, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZdaPv, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_allocate_exception, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_free_exception, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_allocate_dependent_exception, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_free_dependent_exception, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_end_cleanup, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_type_match, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_begin_cleanup, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_end_cleanup, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_bad_cast, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_bad_typeid, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_call_unexpected, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_get_exception_ptr, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_begin_catch, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_end_catch, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZSt18uncaught_exceptionv, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt9exceptionD2Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt9exceptionD1Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt13bad_exceptionD1Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt13bad_exceptionD2Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv115__forced_unwindD2Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv115__forced_unwindD1Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv119__foreign_exceptionD2Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv119__foreign_exceptionD1Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNKSt9exception4whatEv, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNKSt13bad_exception4whatEv, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv119__foreign_exceptionD0Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv115__forced_unwindD0Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt13bad_exceptionD0Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNSt9exceptionD0Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_get_globals_fast, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_get_globals, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv111__terminateEPFvvE, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZSt9terminatev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv112__unexpectedEPFvvE, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZSt10unexpectedv, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZSt13set_terminatePFvvE, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZSt14set_unexpectedPFvvE, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_throw, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_rethrow, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv123__fundamental_type_infoD2Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv123__fundamental_type_infoD1Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv123__fundamental_type_infoD0Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_guard_acquire, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_guard_abort, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_guard_release, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Znwj, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Znaj, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNK10__cxxabiv119__pointer_type_info14__is_pointer_pEv, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv119__pointer_type_infoD2Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv119__pointer_type_infoD1Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv119__pointer_type_infoD0Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNK10__cxxabiv119__pointer_type_info15__pointer_catchEPKNS_17__pbase_type_infoEPPvj, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_pure_virtual, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv120__si_class_type_infoD2Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv120__si_class_type_infoD1Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv120__si_class_type_infoD0Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZSt15set_new_handlerPFvvE, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv117__pbase_type_infoD2Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv117__pbase_type_infoD1Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv117__pbase_type_infoD0Ev, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZNK10__cxxabiv117__pbase_type_info10__do_catchEPKSt9type_infoPPvj, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN9__gnu_cxx27__verbose_terminate_handlerEv, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_demangle, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gcclibcxx_demangle_callback, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__cxa_current_exception_type, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__aeabi_idiv, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__divsi3, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__aeabi_idivmod, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__aeabi_idiv0, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=__aeabi_ldiv0, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=__popcountsi2, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Unwind_VRS_Get, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Unwind_VRS_Set, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__aeabi_unwind_cpp_pr2, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=__aeabi_unwind_cpp_pr1, Type=STT_FUNC, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=__aeabi_unwind_cpp_pr0, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Unwind_VRS_Pop, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Unwind_GetCFA, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_Unwind_RaiseException, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_Unwind_ForcedUnwind, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_Unwind_Resume, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_Unwind_Resume_or_Rethrow, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Unwind_Complete, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Unwind_DeleteException, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_Unwind_Backtrace, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=restore_core_regs, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__restore_core_regs, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_Unwind_Restore_VFP, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_Unwind_Save_VFP, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_Unwind_Restore_VFP_D, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_Unwind_Save_VFP_D, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_Unwind_Restore_VFP_D_16_to_31, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_Unwind_Save_VFP_D_16_to_31, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_Unwind_Restore_WMMXD, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_Unwind_Save_WMMXD, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_Unwind_Restore_WMMXC, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_Unwind_Save_WMMXC, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Unwind_RaiseException, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=___Unwind_RaiseException, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Unwind_Resume, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=___Unwind_Resume, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Unwind_Resume_or_Rethrow, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=___Unwind_Resume_or_Rethrow, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=___Unwind_ForcedUnwind, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Unwind_ForcedUnwind, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=___Unwind_Backtrace, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Unwind_Backtrace, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_unwind_execute, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gnu_unwind_frame, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Unwind_GetRegionStart, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Unwind_GetLanguageSpecificData, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Unwind_GetDataRelBase, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_Unwind_GetTextRelBase, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__gcc_personality_v0, Type=STT_FUNC, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSSt9bad_alloc, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSSt8bad_cast, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSSt10bad_typeid, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSN10__cxxabiv117__class_type_infoE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSN10__cxxabiv115__forced_unwindE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSN10__cxxabiv119__foreign_exceptionE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSSt9exception, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSSt13bad_exception, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSv, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPv, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKv, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSb, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPb, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKb, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSw, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPw, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKw, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSDs, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPDs, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKDs, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSDi, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPDi, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKDi, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSc, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPc, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKc, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSa, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPa, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKa, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSh, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPh, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKh, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSs, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPs, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKs, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSt, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPt, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKt, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSi, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPi, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKi, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSj, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPj, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKj, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSl, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPl, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKl, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSm, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPm, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKm, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSx, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPx, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKx, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSy, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPy, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKy, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSf, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPf, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKf, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSd, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPd, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKd, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSe, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPe, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKe, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSDf, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPDf, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKDf, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSDd, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPDd, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKDd, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSDe, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPDe, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKDe, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSDn, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPDn, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSPKDn, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSN10__cxxabiv123__fundamental_type_infoE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSN10__cxxabiv119__pointer_type_infoE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSN10__cxxabiv120__si_class_type_infoE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZSt7nothrow, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTSN10__cxxabiv117__pbase_type_infoE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__popcount_tab, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTISt9bad_alloc, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTVSt9bad_alloc, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTISt8bad_cast, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTVSt8bad_cast, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTVSt10bad_typeid, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTISt10bad_typeid, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTVN10__cxxabiv117__class_type_infoE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIN10__cxxabiv117__class_type_infoE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIN10__cxxabiv115__forced_unwindE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTISt9exception, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTVSt13bad_exception, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTISt13bad_exception, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIN10__cxxabiv119__foreign_exceptionE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTVN10__cxxabiv115__forced_unwindE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTVN10__cxxabiv119__foreign_exceptionE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTVSt9exception, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKDn, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPDn, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIDn, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKDe, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPDe, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIDe, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKDd, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPDd, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIDd, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKDf, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPDf, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIDf, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKe, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPe, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIe, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKd, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPd, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTId, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKf, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPf, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIf, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKy, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPy, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIy, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKx, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPx, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIx, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKm, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPm, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIm, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKl, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPl, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIl, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKj, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPj, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIj, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKi, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPi, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIi, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKt, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPt, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIt, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKs, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPs, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIs, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKh, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPh, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIh, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKa, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPa, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIa, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKc, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPc, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIc, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKDi, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPDi, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIDi, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKDs, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPDs, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIDs, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKw, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPw, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIw, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKb, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPb, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIb, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPKv, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIPv, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIv, Type=STT_OBJECT, Blind=STB_WEAK, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTVN10__cxxabiv123__fundamental_type_infoE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIN10__cxxabiv123__fundamental_type_infoE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIN10__cxxabiv119__pointer_type_infoE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTVN10__cxxabiv119__pointer_type_infoE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTVN10__cxxabiv120__si_class_type_infoE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIN10__cxxabiv120__si_class_type_infoE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTVN10__cxxabiv117__pbase_type_infoE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZTIN10__cxxabiv117__pbase_type_infoE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv120__unexpected_handlerE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_ZN10__cxxabiv119__terminate_handlerE, Type=STT_OBJECT, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_edata, Type=STT_NOTYPE, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=__bss_start, Type=STT_NOTYPE, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
+ 
+{Name=_end, Type=STT_NOTYPE, Blind=STB_GLOBAL, Visibility=STV_DEFAULT}
