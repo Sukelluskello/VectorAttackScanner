@@ -7,7 +7,7 @@ I do thanks a good friend: Engineer Ivan Javier Sanchez (https://ar.linkedin.com
 
 This tool uses a static analysis methods to do this, the vector attack founded by this tool, can be attacked by fuzzing methods to discover vulnerabilities..
 
-More security researchers, bug hunters, exploit writers, malware developers find a problems in the binaries to do your jobs, with this tool is more easy, this tool search by you automatically.
+More security researchers, bug hunters, exploit writers, malware developers find a problems as unsecure compilation flags, methods/functions exposes, with this tool is more easy, this tool search by you automatically.
 
 It is well known in the world of IT Security, that have been created countermeasures and memory protections to prevent ue is easy to create exploits and prevent programmers to write programs that execute arbitrary code, as RELRO, PAX, ASLR, PIE, NX, SSP, StackCanary and others, this tool search this flags to do the job.
 
